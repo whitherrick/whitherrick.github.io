@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <!--HEAD-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Whitney Herrick</title>
+        <link rel="stylesheet" type="text/css" href="./Portfolio.css">
+    </head>
+
+    <!--BODY-->
+    <body class="Background">
+
+        <!--NAVBAR-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--BACKGROUND VIDEO-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_video">
+                <source src="./computervid.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--VIDEO TEXT-->
+        <div class="Video_Text">
+            <h1 class="white-text">Whitney Herrick's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or 
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br>-Joseph Wizenbaum
+                    <br>
+                    <br>My name is Whitney Herrick. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--ABOUT SECTION-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./img/computerpic.jpg" alt="Computer Image">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! I also enjoy spending time with my two dogs and hiking.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Python Developer Bootcamp,
+                    and trained and experienced in the following web and programming languages: Python, HTML, CSS, Javascript, and SQL.
+                    <br>
+                    <br>I am a well-rounded, full-stack, junior-level developer ready for an entry-level postion. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--Github section-->
+        <div class="Row" id="Github">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/whitherrick" target="_blank">Whitney's Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/whitherrick" target="_blank"><img src="./img/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--CONTACT SECTION-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./img/contactpic.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; We are leaving it blank-->
+                <form action="https://formspree.io/f/meqbwklg" method="POST"> <!--Here we are ultilizing a 3rd party service to submit the contact form data,
+                insert your formspree endpoint in the action attribute-->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER SECTION-->
+        <footer>
+            <p>
+                <p class="center">Whitney Herrick, 2023</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
+        
+
+
+
+
